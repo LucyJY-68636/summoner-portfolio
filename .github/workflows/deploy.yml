@@ -11,9 +11,17 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: summoners-rift-portfolio
 
     steps:
       - name: descargar repositorio
@@ -24,6 +32,7 @@ jobs:
         with:
           node-version: 22
           cache: npm
+          cache-dependency-path: summoners-rift-portfolio/package-lock.json
 
       - name: instalar dependencias
         run: npm ci
@@ -37,7 +46,7 @@ jobs:
       - name: subir archivos
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: summoners-rift-portfolio/dist
 
   deploy:
     environment:
