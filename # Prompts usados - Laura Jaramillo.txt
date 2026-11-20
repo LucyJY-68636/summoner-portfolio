@@ -1,0 +1,13 @@
+# Prompts usados - Laura Jaramillo Yah - 68636
+
+1. como puedo crear un mapa en 3d utilizando react y three.js que tenga una apariencia parecida a la grieta del invocador de league of legends? dame una idea de como organizar los elementos para guiarme por mi cuenta
+
+2. como puedo hacer que diferentes puntos o emblemas del mapa sean interactivos y que al darles clic se abra una ventana con informacion de cada seccion? dame un ejemplo que pueda adaptar a mi proyecto
+
+3. como puedo agregar una animacion de acercamiento de camara cuando el usuario selecciona una zona del mapa y despues regresar a la vista completa? explicame como podria hacerlo con react three fiber
+
+4. como puedo organizar un minimapa para mostrar la ubicacion de los carriles top, mid y bot, el rio y las zonas de la jungla? quiero que se parezca mas al mapa de league of legends
+
+5. como puedo acomodar los emblemas de las diferentes secciones para que cada uno quede ubicado en su carril correspondiente y no se encimen entre ellos?
+
+6. como puedo organizar la informacion de varios proyectos en un arreglo de objetos para mostrar sus nombres, descripciones, tecnologias y enlaces sin tener que escribir una tarjeta diferente para cada uno?
